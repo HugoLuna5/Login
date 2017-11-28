@@ -42,7 +42,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColorHint="#aeb0a5"
-                    android:hint="Enter Your Email"
+                    android:hint="Ingresa tu email"
                     android:layout_gravity="center"
                     android:inputType="text"
                     android:background="#00000000"
@@ -63,7 +63,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColorHint="#aeb0a5"
-                    android:hint="Enter Your Password"
+                    android:hint="Ingresa tu contraseña"
                     android:layout_gravity="center"
                     android:inputType="textPassword"
                     android:background="#00000000"
@@ -84,7 +84,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColorHint="#aeb0a5"
-                    android:hint="Re-Enter password"
+                    android:hint="Confirma tu contraseña"
                     android:layout_gravity="center"
                     android:inputType="textPassword"
                     android:background="#00000000"
@@ -100,26 +100,7 @@
                     android:layout_marginRight="60dp"
                     android:layout_marginTop="5dp"
                     ></LinearLayout>
-                <custom_font.MyEditText
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColorHint="#aeb0a5"
-                    android:hint="Mobile Number"
-                    android:layout_gravity="center"
-                    android:inputType="number"
-                    android:background="#00000000"
-                    android:textSize="12dp"
-                    android:letterSpacing="0.1"
-                    android:layout_marginTop="30dp"/>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="0.5dp"
-                    android:background="#c1c1c1"
-                    android:layout_marginLeft="60dp"
-                    android:layout_marginRight="60dp"
-                    android:layout_marginTop="10dp"
-                    ></LinearLayout>
 
 
 

@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
 
-public class MainActivity3 extends AppCompatActivity {
+public class SignUpActivity extends AppCompatActivity {
 
     ImageView back;
     @Override
@@ -19,7 +19,7 @@ public class MainActivity3 extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent it= new Intent(MainActivity3.this,MainActivity.class);
+                Intent it= new Intent(SignUpActivity.this,UsernameActivityLogin.class);
                 startActivity(it);
 
 

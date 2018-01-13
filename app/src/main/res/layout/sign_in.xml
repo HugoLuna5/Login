@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradiant">
+    android:background="@drawable/gradiant"
+    android:id="@+id/container">
 
 
     <ImageView
@@ -121,7 +122,8 @@
                     android:inputType="textPassword"
                     android:background="#00000000"
                     android:textSize="12dp"
-                    android:letterSpacing="0.1"/>
+                    android:letterSpacing="0.1"
+                    android:id="@+id/password"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
